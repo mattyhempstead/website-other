@@ -1,15 +1,13 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
-import Home from './Home';
-import About from './About';
-import Navbar from './Navbar';
+import Home from './pages/Home';
+import About from './pages/About';
 import BurgerMenu from './BurgerMenu/BurgerMenu';
 
-function App():JSX.Element {
+const App = ():JSX.Element => {
   return (
     <div className="App">
-      {/* <Navbar /> */}
       <BurgerMenu />
 
       <Switch>

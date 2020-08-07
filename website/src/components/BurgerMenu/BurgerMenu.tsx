@@ -1,9 +1,10 @@
 import React from 'react';
 import './BurgerMenu.css';
+import Menu from './Menu';
 
-function BurgerMenu():JSX.Element {
+const BurgerMenu = ():JSX.Element => {
   return (
-    <div className="BurgerMenu" id="BurgerMenu">
+    <div className="BurgerMenu">
       
       <input type="checkbox" />
       
@@ -13,12 +14,7 @@ function BurgerMenu():JSX.Element {
         <rect y="68" rx="8"></rect>
       </svg>
 
-      <div className="Menu">
-        {/* list */}
-        <br />
-        {/* list2 */}
-      </div>
-      
+      <Menu /> 
     </div>
   );
 }

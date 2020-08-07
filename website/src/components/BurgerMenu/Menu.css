@@ -1,0 +1,21 @@
+
+.Menu {
+    display: block;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: -24rem;
+    width: 24rem;
+    max-width: 90%;
+    transition: left 0.5s;
+    z-index: 1;
+    height: 100%;
+
+    padding-top: 4em;
+}
+
+.BurgerMenu input:checked ~ .Menu {
+    left: 0;
+    box-shadow: 0 0 8px 0px black;
+    transition: left 0.5s, box-shadow 0.5s;
+}

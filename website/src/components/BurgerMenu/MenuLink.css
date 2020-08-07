@@ -1,0 +1,18 @@
+.MenuLink {
+    text-decoration: none;
+    color: #c0c0c0;
+}
+
+.MenuLink div.content {
+    padding-left: 2rem;
+    font-size: 2rem;
+   
+    vertical-align: baseline;
+    line-height: 4rem;
+
+    height: 4rem;
+}
+
+.MenuLink div.content:hover {
+    background-color: #222;
+}
