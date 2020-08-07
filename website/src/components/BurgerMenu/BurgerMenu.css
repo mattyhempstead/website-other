@@ -1,0 +1,60 @@
+
+.BurgerMenu svg, .BurgerMenu input {
+    width: 3rem;
+    height: 3rem;
+    top: 2rem;
+    left: 2.5rem;
+    position: absolute;
+}
+
+.BurgerMenu svg {
+   z-index: 2;
+}
+
+.BurgerMenu > svg > rect {
+    fill: #c0c0c0;
+    width: 100%;
+    height: 16%;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.BurgerMenu input:checked ~ svg > rect:nth-child(2) {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.BurgerMenu input:checked ~ svg > rect:nth-child(1) {
+    transform: translate(6%,-2%) rotate(45deg);
+    transition: transform 0.5s;
+}
+
+.BurgerMenu input:checked ~ svg > rect:nth-child(3) {
+    transform: translate(-50%,27%) rotate(-45deg);
+    transition: transform 0.5s;
+}
+
+.BurgerMenu input {
+    opacity: 0;
+    cursor: pointer;
+    margin: 0px;
+    z-index: 3;
+}
+
+.BurgerMenu .Menu {
+    display: block;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: -24rem;
+    width: 24rem;
+    max-width: 90%;
+    transition: left 0.5s;
+    z-index: 1;
+    height: 100%;
+}
+
+.BurgerMenu input:checked ~ .Menu {
+    left: 0;
+    box-shadow: 0 0 8px 0px black;
+    transition: left 0.5s, box-shadow 0.5s;
+}
