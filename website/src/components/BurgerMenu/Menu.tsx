@@ -8,6 +8,7 @@ const Menu = ():JSX.Element => {
       <MenuLink text="Home" link="/"/>
       <MenuLink text="About" link="/about"/>
       <MenuLink text="Projects" link="/projects"/>
+      <MenuLink text= "Countdown" link="/singularity-countdown"/>
     </div>
   );
 }

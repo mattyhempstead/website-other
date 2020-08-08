@@ -1,0 +1,40 @@
+.SingularityCountdown {
+  text-align: center;
+  /* font-family: Verdana, sans-serif; */
+
+  padding-bottom: 3rem;
+}
+
+.SingularityCountdown .header {
+    font-size: 2.8rem;
+    margin-top: 2rem;
+    /* font-weight: bold; */
+    font-style: oblique;
+}
+
+.SingularityCountdown .desc {
+    max-width: 80rem;
+    margin: auto;
+    font-size: 1.7rem;
+    margin-top: 6rem;
+    line-height: 1.25em;
+}
+
+.SingularityCountdown .binary {
+    font-size: 3rem;
+    margin-top: 6rem;
+    color: #444;
+}
+
+.SingularityCountdown .countdown {
+    margin-top: 6rem;
+}
+
+.SingularityCountdown .countdown span {
+    margin: 0rem 2rem 0 2rem;
+    display: inline-block;
+}
+
+.SingularityCountdown .countdown span div:first-child {
+    font-size: 3em;
+}

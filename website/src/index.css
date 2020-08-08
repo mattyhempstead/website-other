@@ -1,7 +1,15 @@
 body {
     background-color: #090909;
-    color: #00ff00;
-    font-family: monospace;
+    /* color: #00ff00; */
+    color: #c0c0c0;
+    /* font-family: monospace; */
+    font-family: "Lucida Console", Monaco, monospace; 
     font-size: 2em;
     margin: 0;
+}
+
+a {
+    /* color: #2228d4; */
+    color: #12571b;
+    text-decoration: none;
 }
