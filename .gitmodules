@@ -1,0 +1,4 @@
+[submodule "src/pages/heart-react-map"]
+	path = src/pages/heart-react-map
+	url = git@github.com:mattyhempstead/heart-react-map.git
+	branch = master
