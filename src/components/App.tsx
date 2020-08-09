@@ -2,9 +2,9 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import BurgerMenu from './BurgerMenu/BurgerMenu';
-import Home from './pages/Home';
-import About from './pages/About';
-import SingularityCountdown from './pages/SingularityCountdown/SingularityCountdown';
+import Home from '../pages/Home';
+import About from '../pages/About';
+import SingularityCountdown from '../pages/SingularityCountdown/SingularityCountdown';
 
 const App = ():JSX.Element => {
   return (

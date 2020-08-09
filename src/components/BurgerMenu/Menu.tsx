@@ -9,6 +9,7 @@ const Menu = ():JSX.Element => {
       <MenuLink text="About" link="/about"/>
       <MenuLink text="Projects" link="/projects"/>
       <MenuLink text= "Countdown" link="/singularity-countdown"/>
+      <MenuLink text= "Heart React" link="/heart-react"/>
     </div>
   );
 };
