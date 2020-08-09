@@ -17,7 +17,7 @@ const BurgerMenu = ():JSX.Element => {
       <Menu /> 
     </div>
   );
-}
+};
 
 export default BurgerMenu;
 

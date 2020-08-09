@@ -13,7 +13,7 @@ const SingularityCountdown = ():JSX.Element => {
     // updateDate();
   }, []);
 
-  let msLeft = new Date(2**31 * 1000).getTime() - date.getTime();
+  const msLeft = new Date(2**31 * 1000).getTime() - date.getTime();
 
   return (
     <div className="SingularityCountdown">
@@ -30,7 +30,7 @@ const SingularityCountdown = ():JSX.Element => {
 
 
       <div className="binary">
-        {"0" + Math.floor(date.getTime()/1000).toString(2)}
+        {'0' + Math.floor(date.getTime()/1000).toString(2)}
       </div>
 
       <div className="desc">
@@ -50,6 +50,6 @@ const SingularityCountdown = ():JSX.Element => {
 
     </div>
   );
-}
+};
 
 export default SingularityCountdown;

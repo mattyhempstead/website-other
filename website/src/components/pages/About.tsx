@@ -7,6 +7,6 @@ const About = ():JSX.Element => {
       about page
     </div>
   );
-}
+};
 
 export default About;

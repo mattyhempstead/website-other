@@ -1,3 +1,29 @@
 .Home {
   text-align: center;
+  font-family: Verdana, sans-serif;
+
+  padding-bottom: 3rem;
+}
+
+.Home .minimalism {
+    color: white;
+    opacity: 0.1;
+    font-size: 0.7rem;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 4rem;
+    text-align: center;
+}
+
+.Home .minimalism::after {
+    content: "minimalism";
+}
+
+.Home .minimalism:hover::after {
+    content: "laziness";
+}
+
+.Home .content {
+    font-size: 1.3rem;
 }

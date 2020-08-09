@@ -14,6 +14,6 @@ const MenuLink = (props:Props):JSX.Element => {
       </div> 
     </a>
   );
-}
+};
 
 export default MenuLink;

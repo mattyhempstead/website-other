@@ -18,6 +18,6 @@ const App = ():JSX.Element => {
       </Switch>
     </div>
   );
-}
+};
 
 export default App;

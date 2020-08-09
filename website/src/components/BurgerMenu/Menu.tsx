@@ -11,6 +11,6 @@ const Menu = ():JSX.Element => {
       <MenuLink text= "Countdown" link="/singularity-countdown"/>
     </div>
   );
-}
+};
 
 export default Menu;
